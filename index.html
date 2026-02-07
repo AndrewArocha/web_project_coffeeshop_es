@@ -67,8 +67,83 @@
 </header>
 
 <main class="content">
-  <section class="reservation" id="reservation"></section>
+  <section class="reservation" id="reservation">
+    <h2 class="reservation__title">Reservar una mesa</h2>
+
+    <form class="reservation__form" action="#" method="post">
+      <label for="name" class="reservation__label">Nombre*</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        class="reservation__input"
+        placeholder="Nombre"
+        required
+      />
+
+      <label for="guests" class="reservation__label">Número de comensales*</label>
+      <input
+        type="number"
+        id="guests"
+        name="guests"
+        class="reservation__input"
+        placeholder="1-8"
+        min="1"
+        max="8"
+        required
+      />
+
+      <label for="date" class="reservation__label">Fecha y hora*</label>
+      <input
+        type="datetime-local"
+        id="date"
+        name="date"
+        class="reservation__input"
+        required
+      />
+
+      <label for="email" class="reservation__label">Tú correo electrónico*</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="reservation__input"
+        placeholder="email@email.com"
+        required
+      />
+
+      <button type="submit" class="reservation__button">Reservar una mesa</button>
+      <label for="terms" class="reservation__checkbox-label">
+      <input type="checkbox" id="terms" name="terms" class="reservation__checkbox" required />
+      <span class="check__text">Acepto los términos de uso</span></label>
+      </form>
+  </section>
 </main>
-<footer class="footer" id="footer"></footer>
+
+<footer class="footer" id="footer">
+    <div class="footer__circle"></div>
+  <div class="footer__column">
+    <img
+    class="footer__logo"
+    src="./Images/logo_coffeeshop_light.svg"
+    alt="Triple Espresso"
+  />
+    <div class="footer__column-columns">
+        <h3 class="footer__social-title">Redes sociales</h3>
+    <ul class="footer__items">
+    <li class="footer__social"><a class="footer__social-link" href="#"><img
+    class="footer__social-icon"
+    src="./Images/facebook_white.svg"
+    alt="Facebook">Facebook</a></li>
+
+    <li class="footer__social"><a class="footer__social-link" href="#"><img
+    class="footer__social-icon"
+    src="./Images/instagram_white.svg"
+    alt="Instagram">Instagram</a></li>
+    </ul>
+    </div>
+    </div>
+  <p class="footer__copyright">© 2026 Andrés Hernandez.</p>
+</footer>
   </body>
 </html>
