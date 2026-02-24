@@ -1,5 +1,5 @@
-# Triple Espresso
+# [Triple Espresso](https://andrewarocha.github.io/web_project_coffeeshop_es/)
 
-Interactive landing page project with forms. 
+Interactive landing page project with forms.
 
-https://andrewarocha.github.io/web_project_coffeeshop_es/
+
