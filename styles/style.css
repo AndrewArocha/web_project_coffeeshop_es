@@ -299,3 +299,156 @@ border-radius: 100%;
   flex-direction: column;
   gap: 20px;
 }
+
+@media (max-width: 1024px) {
+  .page {
+    min-width: 100%;
+  }
+
+  .header__title {
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 40px;
+    margin-top: 140px;
+    max-width: 500px;
+  }
+
+  .header__title-accent {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .header__description {
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 500px;
+  }
+
+  .header__image {
+    width: 500px;
+    height: auto;
+    top: 140px;
+    right: 0;
+  }
+
+  .header__info {
+    padding: 0 40px;
+  }
+
+  .nav {
+    padding: 0 40px;
+  }
+
+  .footer {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    min-width: 100%;
+  }
+
+  .header {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .header__title {
+    margin: 100px 20px 0;
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 100%;
+  }
+
+  .header__title-accent {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .header__description {
+    margin: 20px 20px 0;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+  }
+
+  .header__image {
+    width: 350px;
+    height: auto;
+    top: 80px;
+    right: -80px;
+    opacity: 0.6;
+  }
+
+  .header__info {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+
+  .nav {
+    padding: 0 20px;
+  }
+
+  .nav__links {
+    gap: 10px;
+  }
+
+  .reservation {
+    padding: 60px 20px;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .header__title-accent {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .header__description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .header__image {
+    width: 260px;
+    top: 100px;
+    right: -100px;
+    opacity: 0.4;
+  }
+
+  .reservation__title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .reservation__input {
+    height: 50px;
+  }
+
+  .reservation__button {
+    height: 50px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer__copyright {
+    margin-top: 40px;
+  }
+}
